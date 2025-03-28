@@ -28,7 +28,15 @@ pip install opencv-python dlib numpy scipy imutils
 3. Extract and ensure the `.dat` file is in the correct location.
 
 ## Running the Script
-Activate your virtual environment (if applicable):
+
+create a virtual environment
+
+```bash
+
+python3 -m venv env_name
+
+```
+source it 
 
 ```bash
 source sleep-detection-env/bin/activate
